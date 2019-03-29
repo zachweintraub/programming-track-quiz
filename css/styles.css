@@ -45,7 +45,16 @@ body {
   left: 3%;
 }
 
-span {
+[id$='error'] {
   font-style: italic;
   color: red;
+}
+
+.start-over {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.start-over:hover {
+  cursor: pointer;
 }
