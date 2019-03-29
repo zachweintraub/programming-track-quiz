@@ -29,11 +29,15 @@ body {
   width: 80%;
 }
 
-#intro-text p {
+.text-on-black {
   color: white;
 }
 
 [id^='category'] {
+  display: none;
+}
+
+[id^='result'] {
   display: none;
 }
 

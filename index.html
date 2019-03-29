@@ -15,7 +15,7 @@
         <p>...find out in minutes by answering a few questions...</p>
       </div>
       <div id="intro-text">
-        <p>Here is some introductory text discussing the quiz. I need to make it longer so that it looks a bit nicer and talks about some other things. This way it will occupy more lines and have better information.</p>
+        <p class="text-on-black">Here is some introductory text discussing the quiz. I need to make it longer so that it looks a bit nicer and talks about some other things. This way it will occupy more lines and have better information.</p>
         <button id="start-btn" type="button" class="btn">Take the quiz!</button>
       </div>
       <div id='category1'>
@@ -73,7 +73,7 @@
       <div id='category2'>
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h2 class="panel-title">What are you into?</h2>
+            <h2 class="panel-title">What are you into? <span id="category2error">Please answer both questions!</span></h2>
           </div>
           <div class="panel-body">
             <fieldset id='q2a'>
@@ -125,7 +125,7 @@
       <div id='category3'>
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h2 class="panel-title">What are your career aspirations?</h2>
+            <h2 class="panel-title">What are your career aspirations? <span id="category3error">Please answer both questions!</span></h2>
           </div>
           <div class="panel-body">
             <fieldset id='q3a'>
@@ -173,6 +173,18 @@
           </div>
         </div>
         <button id="btn3" type="button" class="btn">Show results!</button>
+      </div>
+      <div class="text-on-black" id="result1">
+        <h2>You seem well-suited to our C#/.NET track, nice!</h2>
+        <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
+      </div>
+      <div class="text-on-black" id="result2">
+        <h2>You seem well-suited to our CSS/Design track, nice!</h2>
+        <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design classes at Epicodus.</p>
+      </div>
+      <div class="text-on-black" id="result3">
+        <h2>You seem well-suited to our Ruby/Rails track, nice!</h2>
+        <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
       </div>
     </div>
   </body>
