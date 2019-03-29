@@ -66,4 +66,11 @@ $(function(){
       $('span#category3error').show();
     }
   });
+
+  $('.start-over').click(function(){
+    $('input:radio').prop('checked', false);
+    $('[id$="error"]').hide();
+    $('[id^="result"]').slideUp();
+    $('#category1').slideDown();
+  });
 });
